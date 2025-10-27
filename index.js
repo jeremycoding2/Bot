@@ -43,7 +43,7 @@ fs.readdir("./commands/", (_err, files) => {
 });
 
 // Login through the client
-client.login(process.env.token);
+client.login(process.env.TOKEN);
 
 const keepAlive = require("./server");
 
